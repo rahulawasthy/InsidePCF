@@ -46,14 +46,18 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+
+define('AUTH_KEY',         'SdbGiPO]BC|7) *;E={+u9:*||E74Qf}4.|Sp|d|s]DWnRGXF|y^)=u`Q+t1v3|c');
+define('SECURE_AUTH_KEY',  'uF,SvPVM7cn>>jFt!Z(^CCycYo5=c@2Z40M%-fg@y]ly|a4~^mlALhSTJS1Z#<w#');
+define('LOGGED_IN_KEY',    '`1KI1r^61PH|VE8lw`Orj&o~.8!!w11*6o~=Gqt#xo=NaV*YL voV$@;2{F,TU8y');
+define('NONCE_KEY',        '9&.7{|bRgk+VKWb`ca0TuuiziV&bQ9A|(w)CY&2jwcax41$Osi!(t}Xy=mp@7C&7');
+define('AUTH_SALT',        'o4/6KL_<er3Bl(8iWB&dUT2I<{EPLbFWQEUrn=Lf=L?tbg;`;bBe*{YHt;VQ-:zm');
+define('SECURE_AUTH_SALT', 'Y9!X)0Qn G-`fK|XCi~^}QpZ?z;q-SmvJ9p$]>]`-COqrhCA)-$AbJ$6P`W-Y{il');
+define('LOGGED_IN_SALT',   'ijzQ2g,c]-}WU|V@;Xc:5bK>oee]qg&^J8/.|3{:IPq#3V*%MSe>9+4q.6Q@,.O)');
+define('NONCE_SALT',       'HdEAmB6u<((Gb(i/XShiTjVz=`ym.+_^q*-wGZ~!CUN,!BVN@$~<`JRua~AFx63o');
+
+define( 'AWS_ACCESS_KEY_ID', 'AKIAIIRD3ZS7W6TGX64Q' );
+define( 'AWS_SECRET_ACCESS_KEY', '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' );
 
 /**#@-*/
 

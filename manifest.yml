@@ -1,14 +1,9 @@
 ---
 applications:
-- name: mywordpress
-  memory: 128M 
+- name: inside-pcf-wp
+  memory: 128M
   path: .
   buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
-  host: wordpress-on
+  host: inside-pcf
   services:
-  - mysql-db
-  env:
-    SSH_HOST: user@your-ssh-server
-    SSH_PATH: /full/or/relative/path/on/ssh/server
-    SSH_KEY_NAME: sshfs_rsa
-    SSH_OPTS: '["cache=yes", "kernel_cache", "compression=no", "large_read"]'
+  - clearDB-insidePCF
