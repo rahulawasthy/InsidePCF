@@ -1,0 +1,23 @@
+{
+    "name": "acme/brilliant-wordpress-site",
+    "description": "My brilliant WordPress site",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php":"*",
+        "wpackagist-plugin/amazon-web-services":"*",
+        "wpackagist-plugin/amazon-s3-and-cloudfront":"*",
+        "wpackagist-plugin/akismet":"dev-trunk",
+        "wpackagist-plugin/captcha":"4.0.8",
+        "wpackagist-theme/intergalactic":"*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/"
+        }
+    }
+}
